@@ -1703,7 +1703,7 @@
         // ---------------- CONFIG: EDIT THIS ----------------
         // بعد نشر main.py على سيرفر حقيقي، غيّر هذا الرابط ليطابق رابط الخادم الفعلي
         // After deploying main.py to a real server, update this to your server's URL
-        const API_BASE_URL = "http://localhost:8000";
+        const API_BASE_URL = "https://ai-landing-page-production-b2bd.up.railway.app";
 
         // روابط PayPal الثابتة لكل باقة (نفس الروابط الموجودة في main.py)
         const PAYPAL_LINKS = {
@@ -1716,7 +1716,7 @@
         const T = {
             ar: {
                 brand: "منصّة",
-                nav: { features: "المميزات", how: "كيف تعمل", pricing: "الأسعار", faq: "الأسئلة الشائعة", login: "تسجيل الدخول", cta: "ابدأ مجانًا" },
+                nav: {features: "المميزات", how: "كيف تعمل", pricing: "الأسعار", faq: "الأسئلة الشائعة", login: "تسجيل الدخول", cta: "ابدأ مجانًا"},
                 hero: {
                     eyebrow: "نسخة تجريبية مجانية لمدة 14 يومًا",
                     title: 'ذكاء اصطناعي خاص بشركتك<br><span class="grad">يجيب، يحلّل، ويعمل نيابة عنك</span>',
@@ -1733,21 +1733,21 @@
                 features: {
                     kicker: "المميزات", title: "كل ما تحتاجه لأتمتة خدمة عملائك", sub: "من رفع الملفات إلى الرد الذكي، مصمم ليتكامل مع عملك الحالي دون تعقيد.",
                     items: [
-                        { icon: "🧠", title: "فهم بيانات شركتك", text: "ارفع ملفاتك ووثائقك، ويقوم المساعد بالإجابة بناءً على محتواها الفعلي فقط." },
-                        { icon: "🔑", title: "مفتاح API خاص بك", text: "كل شركة تحصل على مفتاح API فريد للوصول الآمن إلى جميع نقاط النظام." },
-                        { icon: "💳", title: "دفع واشتراكات مرنة", text: "تكامل مباشر مع PayPal لإدارة الاشتراكات واستلام مفتاح API فوري بعد الدفع." },
-                        { icon: "📈", title: "لوحة تحكم شاملة", text: "راقب عدد الاستفسارات، استخدام الباقة، وأداء المساعد من مكان واحد." },
-                        { icon: "🛡️", title: "أمان على مستوى المؤسسات", text: "تشفير للبيانات أثناء النقل والتخزين، مع صلاحيات وصول قابلة للتخصيص." },
-                        { icon: "🌐", title: "دعم متعدد اللغات", text: "واجهة وردود بالعربية والإنجليزية، قابلة للتوسعة للغات إضافية." }
+                        {icon: "🧠", title: "فهم بيانات شركتك", text: "ارفع ملفاتك ووثائقك، ويقوم المساعد بالإجابة بناءً على محتواها الفعلي فقط."},
+                        {icon: "🔑", title: "مفتاح API خاص بك", text: "كل شركة تحصل على مفتاح API فريد للوصول الآمن إلى جميع نقاط النظام."},
+                        {icon: "💳", title: "دفع واشتراكات مرنة", text: "تكامل مباشر مع PayPal لإدارة الاشتراكات واستلام مفتاح API فوري بعد الدفع."},
+                        {icon: "📈", title: "لوحة تحكم شاملة", text: "راقب عدد الاستفسارات، استخدام الباقة، وأداء المساعد من مكان واحد."},
+                        {icon: "🛡️", title: "أمان على مستوى المؤسسات", text: "تشفير للبيانات أثناء النقل والتخزين، مع صلاحيات وصول قابلة للتخصيص."},
+                        {icon: "🌐", title: "دعم متعدد اللغات", text: "واجهة وردود بالعربية والإنجليزية، قابلة للتوسعة للغات إضافية."}
                     ]
                 },
                 how: {
                     kicker: "كيف تعمل", title: "من التسجيل إلى أول إجابة في أقل من 5 دقائق",
                     steps: [
-                        { title: "أنشئ حسابك", text: "سجّل شركتك واختر الباقة المناسبة لحجم فريقك." },
-                        { title: "ارفع بياناتك", text: "حمّل ملفات شركتك ليتم تحليلها واستخدامها في الإجابات." },
-                        { title: "احصل على مفتاحك", text: "يتولد مفتاح API خاص بك جاهز للربط مع أنظمتك." },
-                        { title: "ابدأ الاستخدام", text: "وجّه الاستفسارات إلى المساعد واحصل على ردود فورية." }
+                        {title: "أنشئ حسابك", text: "سجّل شركتك واختر الباقة المناسبة لحجم فريقك."},
+                        {title: "ارفع بياناتك", text: "حمّل ملفات شركتك ليتم تحليلها واستخدامها في الإجابات."},
+                        {title: "احصل على مفتاحك", text: "يتولد مفتاح API خاص بك جاهز للربط مع أنظمتك."},
+                        {title: "ابدأ الاستخدام", text: "وجّه الاستفسارات إلى المساعد واحصل على ردود فورية."}
                     ]
                 },
                 pricing: {
@@ -1772,18 +1772,18 @@
                 trust: {
                     kicker: "الثقة والأمان", title: "بياناتك محمية في كل خطوة",
                     items: [
-                        { ic: "🔐", title: "تشفير من طرف إلى طرف", text: "جميع البيانات تُشفّر أثناء النقل والتخزين" },
-                        { ic: "🕒", title: "ضمان استرجاع 14 يومًا", text: "إن لم تقتنع، نعيد أموالك بالكامل" },
-                        { ic: "📶", title: "وقت تشغيل %99.9", text: "بنية تحتية موثوقة تعمل دون توقف" },
-                        { ic: "🧾", title: "فوترة شفافة", text: "بدون رسوم خفية أو التزامات طويلة الأمد" }
+                        {ic: "🔐", title: "تشفير من طرف إلى طرف", text: "جميع البيانات تُشفّر أثناء النقل والتخزين"},
+                        {ic: "🕒", title: "ضمان استرجاع 14 يومًا", text: "إن لم تقتنع، نعيد أموالك بالكامل"},
+                        {ic: "📶", title: "وقت تشغيل %99.9", text: "بنية تحتية موثوقة تعمل دون توقف"},
+                        {ic: "🧾", title: "فوترة شفافة", text: "بدون رسوم خفية أو التزامات طويلة الأمد"}
                     ]
                 },
                 testi: {
                     kicker: "آراء العملاء", title: "شركات تثق في منصّتنا يوميًا",
                     items: [
-                        { q: "خفّضنا وقت الرد على استفسارات العملاء من ساعات إلى ثوانٍ. التكامل كان أسهل مما توقعنا.", n: "هبة السعدي", r: "مديرة عمليات، متجر إلكتروني", i: "هـ.س" },
-                        { q: "مفتاح API واضح والتوثيق ممتاز. فريقنا التقني ربطه بالمنتج الحالي خلال يوم واحد فقط.", n: "محمد العلي", r: "مطوّر أول، شركة برمجيات", i: "م.ع" },
-                        { q: "الباقة الاحترافية تستحق كل دولار. الدعم سريع والمساعد يفهم بيانات شركتنا بدقة عالية.", n: "رنا النجار", r: "مؤسسة، وكالة تسويق", i: "ر.ن" }
+                        {q: "خفّضنا وقت الرد على استفسارات العملاء من ساعات إلى ثوانٍ. التكامل كان أسهل مما توقعنا.", n: "هبة السعدي", r: "مديرة عمليات، متجر إلكتروني", i: "هـ.س"},
+                        {q: "مفتاح API واضح والتوثيق ممتاز. فريقنا التقني ربطه بالمنتج الحالي خلال يوم واحد فقط.", n: "محمد العلي", r: "مطوّر أول، شركة برمجيات", i: "م.ع"},
+                        {q: "الباقة الاحترافية تستحق كل دولار. الدعم سريع والمساعد يفهم بيانات شركتنا بدقة عالية.", n: "رنا النجار", r: "مؤسسة، وكالة تسويق", i: "ر.ن"}
                     ]
                 },
                 auth: {
@@ -1812,11 +1812,11 @@
                 faq: {
                     kicker: "الأسئلة الشائعة", title: "كل ما تحتاج معرفته قبل البدء",
                     items: [
-                        { q: "هل أحتاج إلى خبرة تقنية للبدء؟", a: "لا. يمكنك التسجيل والحصول على مفتاح API الخاص بك خلال دقائق، ودمجه باتباع خطوات التوثيق البسيطة." },
-                        { q: "هل يمكنني تغيير الباقة لاحقًا؟", a: "نعم، يمكنك الترقية أو التخفيض في أي وقت من لوحة التحكم دون فقدان بياناتك." },
-                        { q: "ما هي طرق الدفع المتاحة؟", a: "ندعم الدفع عبر PayPal حاليًا. تدفع الاشتراك، ثم تستلم مفتاح API فورًا لتبدأ الاستخدام." },
-                        { q: "هل بياناتي آمنة؟", a: "جميع البيانات مشفّرة أثناء النقل والتخزين، ولا تتم مشاركتها مع أي طرف ثالث." },
-                        { q: "هل يوجد ضمان استرجاع الأموال؟", a: "نعم، نوفر ضمان استرجاع كامل خلال أول 14 يومًا من الاشتراك في أي باقة." }
+                        {q: "هل أحتاج إلى خبرة تقنية للبدء؟", a: "لا. يمكنك التسجيل والحصول على مفتاح API الخاص بك خلال دقائق، ودمجه باتباع خطوات التوثيق البسيطة."},
+                        {q: "هل يمكنني تغيير الباقة لاحقًا؟", a: "نعم، يمكنك الترقية أو التخفيض في أي وقت من لوحة التحكم دون فقدان بياناتك."},
+                        {q: "ما هي طرق الدفع المتاحة؟", a: "ندعم الدفع عبر PayPal حاليًا. تدفع الاشتراك، ثم تستلم مفتاح API فورًا لتبدأ الاستخدام."},
+                        {q: "هل بياناتي آمنة؟", a: "جميع البيانات مشفّرة أثناء النقل والتخزين، ولا تتم مشاركتها مع أي طرف ثالث."},
+                        {q: "هل يوجد ضمان استرجاع الأموال؟", a: "نعم، نوفر ضمان استرجاع كامل خلال أول 14 يومًا من الاشتراك في أي باقة."}
                     ]
                 },
                 ctaFinal: {
@@ -1832,7 +1832,7 @@
             },
             en: {
                 brand: "Platform",
-                nav: { features: "Features", how: "How it works", pricing: "Pricing", faq: "FAQ", login: "Log in", cta: "Start free" },
+                nav: {features: "Features", how: "How it works", pricing: "Pricing", faq: "FAQ", login: "Log in", cta: "Start free"},
                 hero: {
                     eyebrow: "Free 14-day trial",
                     title: 'AI built for your company<br><span class="grad">that answers, analyzes, and works for you</span>',
@@ -1849,21 +1849,21 @@
                 features: {
                     kicker: "Features", title: "Everything you need to automate customer support", sub: "From uploading files to smart replies — built to fit into your existing workflow without friction.",
                     items: [
-                        { icon: "🧠", title: "Understands your data", text: "Upload your files and documents — the assistant answers strictly based on their actual content." },
-                        { icon: "🔑", title: "Your own API key", text: "Every company gets a unique API key for secure access to all endpoints." },
-                        { icon: "💳", title: "Flexible billing", text: "Direct PayPal integration to manage subscriptions and issue your API key instantly after payment." },
-                        { icon: "📈", title: "Full dashboard", text: "Track query volume, plan usage, and assistant performance from one place." },
-                        { icon: "🛡️", title: "Enterprise-grade security", text: "Data encrypted in transit and at rest, with customizable access permissions." },
-                        { icon: "🌐", title: "Multilingual support", text: "Interface and replies in Arabic and English, extensible to more languages." }
+                        {icon: "🧠", title: "Understands your data", text: "Upload your files and documents — the assistant answers strictly based on their actual content."},
+                        {icon: "🔑", title: "Your own API key", text: "Every company gets a unique API key for secure access to all endpoints."},
+                        {icon: "💳", title: "Flexible billing", text: "Direct PayPal integration to manage subscriptions and issue your API key instantly after payment."},
+                        {icon: "📈", title: "Full dashboard", text: "Track query volume, plan usage, and assistant performance from one place."},
+                        {icon: "🛡️", title: "Enterprise-grade security", text: "Data encrypted in transit and at rest, with customizable access permissions."},
+                        {icon: "🌐", title: "Multilingual support", text: "Interface and replies in Arabic and English, extensible to more languages."}
                     ]
                 },
                 how: {
                     kicker: "How it works", title: "From sign-up to your first answer in under 5 minutes",
                     steps: [
-                        { title: "Create your account", text: "Register your company and pick the plan that fits your team size." },
-                        { title: "Upload your data", text: "Add your company files so they can be analyzed and used in answers." },
-                        { title: "Get your API key", text: "A unique API key is generated instantly, ready to connect to your systems." },
-                        { title: "Start using it", text: "Send queries to the assistant and get instant, accurate responses." }
+                        {title: "Create your account", text: "Register your company and pick the plan that fits your team size."},
+                        {title: "Upload your data", text: "Add your company files so they can be analyzed and used in answers."},
+                        {title: "Get your API key", text: "A unique API key is generated instantly, ready to connect to your systems."},
+                        {title: "Start using it", text: "Send queries to the assistant and get instant, accurate responses."}
                     ]
                 },
                 pricing: {
@@ -1888,18 +1888,18 @@
                 trust: {
                     kicker: "Trust & security", title: "Your data is protected at every step",
                     items: [
-                        { ic: "🔐", title: "End-to-end encryption", text: "All data is encrypted in transit and at rest" },
-                        { ic: "🕒", title: "14-day money-back guarantee", text: "Not convinced? Get a full refund" },
-                        { ic: "📶", title: "99.9% uptime", text: "Reliable infrastructure that stays online" },
-                        { ic: "🧾", title: "Transparent billing", text: "No hidden fees or long-term commitments" }
+                        {ic: "🔐", title: "End-to-end encryption", text: "All data is encrypted in transit and at rest"},
+                        {ic: "🕒", title: "14-day money-back guarantee", text: "Not convinced? Get a full refund"},
+                        {ic: "📶", title: "99.9% uptime", text: "Reliable infrastructure that stays online"},
+                        {ic: "🧾", title: "Transparent billing", text: "No hidden fees or long-term commitments"}
                     ]
                 },
                 testi: {
                     kicker: "Customer stories", title: "Companies that trust our platform every day",
                     items: [
-                        { q: "We cut our customer response time from hours to seconds. Integration was easier than we expected.", n: "Heba Al-Saadi", r: "Operations Manager, E-commerce", i: "HS" },
-                        { q: "The API key is straightforward and the docs are excellent. Our engineers connected it to our product in a single day.", n: "Mohammed Al-Ali", r: "Senior Developer, Software company", i: "MA" },
-                        { q: "The Pro plan is worth every dollar. Support is fast and the assistant understands our company data precisely.", n: "Rana Al-Najjar", r: "Founder, Marketing agency", i: "RN" }
+                        {q: "We cut our customer response time from hours to seconds. Integration was easier than we expected.", n: "Heba Al-Saadi", r: "Operations Manager, E-commerce", i: "HS"},
+                        {q: "The API key is straightforward and the docs are excellent. Our engineers connected it to our product in a single day.", n: "Mohammed Al-Ali", r: "Senior Developer, Software company", i: "MA"},
+                        {q: "The Pro plan is worth every dollar. Support is fast and the assistant understands our company data precisely.", n: "Rana Al-Najjar", r: "Founder, Marketing agency", i: "RN"}
                     ]
                 },
                 auth: {
@@ -1928,11 +1928,11 @@
                 faq: {
                     kicker: "FAQ", title: "Everything you need to know before you start",
                     items: [
-                        { q: "Do I need technical experience to get started?", a: "No. You can sign up and get your API key in minutes, then integrate it by following our simple docs." },
-                        { q: "Can I change my plan later?", a: "Yes, you can upgrade or downgrade anytime from your dashboard without losing your data." },
-                        { q: "What payment methods are available?", a: "We currently support PayPal. Pay for your plan and get your API key instantly to start using the platform." },
-                        { q: "Is my data secure?", a: "All data is encrypted in transit and at rest, and is never shared with third parties." },
-                        { q: "Is there a money-back guarantee?", a: "Yes, we offer a full refund within the first 14 days of any plan." }
+                        {q: "Do I need technical experience to get started?", a: "No. You can sign up and get your API key in minutes, then integrate it by following our simple docs."},
+                        {q: "Can I change my plan later?", a: "Yes, you can upgrade or downgrade anytime from your dashboard without losing your data."},
+                        {q: "What payment methods are available?", a: "We currently support PayPal. Pay for your plan and get your API key instantly to start using the platform."},
+                        {q: "Is my data secure?", a: "All data is encrypted in transit and at rest, and is never shared with third parties."},
+                        {q: "Is there a money-back guarantee?", a: "Yes, we offer a full refund within the first 14 days of any plan."}
                     ]
                 },
                 ctaFinal: {
@@ -1950,7 +1950,7 @@
 
         let lang = 'ar';
 
-        function get(obj, path) { return path.split('.').reduce((o, k) => (o || {})[k], obj); }
+        function get(obj, path) {return path.split('.').reduce((o, k) => (o || {})[k], obj);}
 
         function renderDynamic(dict) {
             // Features
@@ -2065,7 +2065,7 @@
 
         let authMode = 'login';
 
-        function currentDict() { return T[lang]; }
+        function currentDict() {return T[lang];}
 
         function setLanguage(l) {
             lang = l;
@@ -2119,7 +2119,7 @@
                     ci++;
                     typingTimer = setTimeout(loop, 26);
                 } else {
-                    typingTimer = setTimeout(() => { ci = 0; loop(); }, 3500);
+                    typingTimer = setTimeout(() => {ci = 0; loop();}, 3500);
                 }
             }
             loop();
@@ -2133,8 +2133,8 @@
         });
 
         // Auth tabs
-        document.getElementById('tabLogin').addEventListener('click', () => { authMode = 'login'; setAuthMode('login', currentDict()); });
-        document.getElementById('tabSignup').addEventListener('click', () => { authMode = 'signup'; setAuthMode('signup', currentDict()); });
+        document.getElementById('tabLogin').addEventListener('click', () => {authMode = 'login'; setAuthMode('login', currentDict());});
+        document.getElementById('tabSignup').addEventListener('click', () => {authMode = 'signup'; setAuthMode('signup', currentDict());});
         document.getElementById('authForm').addEventListener('submit', () => showToast(currentDict().auth.toastSubmit));
 
         // Payment
@@ -2152,7 +2152,7 @@
         function showApiKey(key) {
             document.getElementById('apiKeyValue').textContent = key;
             document.getElementById('apiKeyResult').style.display = 'block';
-            document.getElementById('apiKeyResult').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            document.getElementById('apiKeyResult').scrollIntoView({behavior: 'smooth', block: 'center'});
         }
 
         document.getElementById('copyKeyBtn').addEventListener('click', () => {
@@ -2165,7 +2165,7 @@
             const name = document.getElementById('ppName').value.trim();
             const email = document.getElementById('ppEmail').value.trim();
             const paypal_reference = document.getElementById('ppRef').value.trim();
-            if (!name || !email) { return; }
+            if (!name || !email) {return;}
 
             const btn = document.getElementById('paypalClaimBtn');
             const originalText = btn.textContent;
@@ -2173,8 +2173,8 @@
             try {
                 const res = await fetch(`${API_BASE_URL}/enterprise/paypal/claim`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ name, email, plan: selectedPaypalPlan, paypal_reference })
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({name, email, plan: selectedPaypalPlan, paypal_reference})
                 });
                 if (!res.ok) throw new Error('request failed');
                 const data = await res.json();
